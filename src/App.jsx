@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Navbar from './layout/Navbar'
 
 
 
@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <Navbar />
      <h1>First Edit</h1>
     </>
   )
